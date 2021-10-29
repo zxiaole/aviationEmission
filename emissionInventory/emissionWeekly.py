@@ -9,13 +9,13 @@ yearStart = 2019
 monthStart = 2
 dayStart = 1
 hourStart = 0
-cache_dir = Path('/data/database/Openskynet/opensky/cache_zurich')
+cache_dir = Path('Your path for the folder with the downloaded parquet files')
 
 def genFileName(sDate, eDate):
 	fname = sDate.strftime("%Y%m%d%H")+'To'+eDate.strftime("%Y%m%d%H")
 	return fname
 
-fd= pd.read_csv('/data/database/Openskynet/opensky/cache_zurich/aircraftDatabase.csv')
+fd= pd.read_csv('aircraftDatabase.csv')
 
 startDate =  datetime.datetime(yearStart, monthStart, dayStart, hourStart, 0)
 for month in range(10,40):
