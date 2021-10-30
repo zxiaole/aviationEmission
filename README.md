@@ -7,3 +7,5 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 * [getDataCompress_zurich_2019.py](/emissionInventory/preprocessing/getDataCompress_zurich_2019.py): downloads the Automatic Dependent Surveillance–Broadcast data from [OpenSky Network](https://opensky-network.org/). The data will be downloaded weekly and saved as *parquet* to reduce the size of single file.
 
 * [emissionWeekly.py](/emissionInventory/preprocessing/emissionWeekly.py): extract the weekly data from *parquet* to *csv*, and link the *icao24* number with the aircraft type. The aircraft database [aircraftDatabase.csv](https://opensky-network.org/datasets/metadata/) should be downloaded from OpenSky Network.
+
+* [main.m](/emissionInventory/processing/main.m): separate the whole flight trajectory into six phases (saved in [segmentation](/emissionInventory/processing/segmentation)), calculate the frequency at each grid box (saved in [spatialFrequency](/emissionInventory/processing/spatialFrequency)). 
