@@ -12,6 +12,8 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 
 * [analyzeHourlyEmission_revise_aromatics.m](/emissionInventory/processing/analyzeHourlyEmission_revise_aromatics.m): calculate the total particle number emission (both volatile and non-volatile particles). [airportTemp.txt](/emissionInventory/processing/airportTemp.txt) is the hourly ambient temperature and precipitation, which is used to estimate the total particle number emission. The formation of volatile particles depends on the ambient temperature. Now the airportTemp.txt contains the data for 2017, which was obtained from [NOAA](https://www.ncei.noaa.gov/maps/hourly/). The meteo data can be also obtained from other sources, e.g. [MeteoSwiss](https://gate.meteoswiss.ch/idaweb/login.do). The daily flights are also needed [dailyFlights](/emissionInventory/processing/dailyFlights). The data is used to calculate the temporal profile, which can be also estimated using the trajectory data, but it is time consuming. The data for different years can be obtained from the the annual report of Zurich Airport (e.g. [statistikbericht2020.pdf](https://www.flughafen-zuerich.ch/newsroom/download/1083723/statistikbericht2020.pdf)).
 
+* [results_nvPM_num_emission_2018](/emissionInventory/results_nvPM_num_emission_2018/): the developed emission inventories of non-volatile particles from jet engines at the Zurich Airport for the year of 2018. Data are the number of particles emitted within each grid box during the whole year and the averaged altitude of the emissions. The shapefiles can be used by GRAMM/GRAL model.
+
 
 ## Dispersion model
 (to be continued)
