@@ -17,4 +17,4 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 (to be continued)
 
 ## Reference
-Xiaole Zhang, Matthias Karl, Luchi Zhang, Jing Wang. Influence of Aviation Emission on the Particle Number Concentration near Zurich Airport. Environmental Science & Technology 2020, 54 (22) , 14161-14171. https://doi.org/10.1021/acs.est.0c02249OpenURL
+Xiaole Zhang, Matthias Karl, Luchi Zhang, Jing Wang. Influence of Aviation Emission on the Particle Number Concentration near Zurich Airport. Environmental Science & Technology 2020, 54 (22) , 14161-14171. https://doi.org/10.1021/acs.est.0c02249
