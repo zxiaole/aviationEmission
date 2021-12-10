@@ -20,5 +20,6 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 (to be continued)
 
 ## Reference
-Xiaole Zhang, Matthias Karl, Luchi Zhang, Jing Wang. Influence of Aviation Emission on the Particle Number Concentration near Zurich Airport. Environmental Science & Technology 2020, 54 (22) , 14161-14171. https://doi.org/10.1021/acs.est.0c02249
-Moore, R. H.; Shook, M. A.; Ziemba, L. D.; DiGangi, J. P.; Winstead, E. L.; Rauch, B.; Jurkat, T.; Thornhill, K. L.; Crosbie, E. C.; Robinson, C.; Shingler, T. J.; Anderson, B. E. Take-off engine particle emission indices for in-service aircraft at Los Angeles International Airport. Sci. Data 2017, 4, 170198  DOI: 10.1038/sdata.2017.198  https://www.nature.com/articles/sdata2017198
+1. Xiaole Zhang, Matthias Karl, Luchi Zhang, Jing Wang. Influence of Aviation Emission on the Particle Number Concentration near Zurich Airport. Environmental Science & Technology 2020, 54 (22) , 14161-14171. https://doi.org/10.1021/acs.est.0c02249
+2. Moore, R. H.; Shook, M. A.; Ziemba, L. D.; DiGangi, J. P.; Winstead, E. L.; Rauch, B.; Jurkat, T.; Thornhill, K. L.; Crosbie, E. C.; Robinson, C.; Shingler, T. J.; Anderson, B. E. Take-off engine particle emission indices for in-service aircraft at Los Angeles International Airport. Sci. Data 2017, 4, 170198  DOI: 10.1038/sdata.2017.198  https://www.nature.com/articles/sdata2017198
+3. Moore, R. H.; Shook, M.; Beyersdorf, A.; Corr, C.; Herndon, S.; Knighton, W. B.; Miake-Lye, R.; Thornhill, K. L.; Winstead, E. L.; Yu, Z.; Ziemba, L. D.; Anderson, B. E. Influence of Jet Fuel Composition on Aircraft Engine Emissions: A Synthesis of Aerosol Emissions Data from the NASA APEX, AAFEX, and ACCESS Missions. Energy Fuels 2015, 29, 2591– 2600,  DOI: 10.1021/ef502618w [
