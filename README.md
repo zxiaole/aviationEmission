@@ -14,7 +14,7 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 
 * [results_nvPM_num_emission_2018](/emissionInventory/results_nvPM_num_emission_2018/): the developed emission inventories of non-volatile particles from jet engines at the Zurich Airport for the year of 2018. Data are the number of particles emitted within each grid box during the whole year and the averaged altitude of the emissions. The shapefiles can be used by GRAMM/GRAL model.
 
-* [regressionModelForPN.m](/aviationEmission/regressionModelforPNEmission/regressionModelForPN.m):  Regression model for the total particle number emission index based on the data set from APEX, AAFEX I&II, [(Moore et al., 2015)](https://pubs.acs.org/doi/10.1021/ef502618w) and the LAX study [(Moore et al., 2017)](https://www.nature.com/articles/sdata2017198). The data used in the fitting were from these studies.
+* [regressionModelForPN.m](/regressionModelforPNEmission/regressionModelForPN.m):  Regression model for the total particle number emission index based on the data set from APEX, AAFEX I&II, [(Moore et al., 2015)](https://pubs.acs.org/doi/10.1021/ef502618w) and the LAX study [(Moore et al., 2017)](https://www.nature.com/articles/sdata2017198). The data used in the fitting were from these studies.
 
 ## Dispersion model
 (to be continued)
