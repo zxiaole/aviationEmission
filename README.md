@@ -21,3 +21,4 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 
 ## Reference
 Xiaole Zhang, Matthias Karl, Luchi Zhang, Jing Wang. Influence of Aviation Emission on the Particle Number Concentration near Zurich Airport. Environmental Science & Technology 2020, 54 (22) , 14161-14171. https://doi.org/10.1021/acs.est.0c02249
+Moore, R. H.; Shook, M. A.; Ziemba, L. D.; DiGangi, J. P.; Winstead, E. L.; Rauch, B.; Jurkat, T.; Thornhill, K. L.; Crosbie, E. C.; Robinson, C.; Shingler, T. J.; Anderson, B. E. Take-off engine particle emission indices for in-service aircraft at Los Angeles International Airport. Sci. Data 2017, 4, 170198  DOI: 10.1038/sdata.2017.198  https://www.nature.com/articles/sdata2017198
