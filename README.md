@@ -25,6 +25,7 @@ After the GRAL/GRAMM calculations, the results should be read and analyzed. In t
 * [setGralConfig](/postprocessing/setGralConfig.m): (function) get the key configurations of the domain used in the Gral calculations. If the domain has been changed, the corresponding setting should be also changed in the code.
 * [coupleMafor_hourly](/postprocessing/coupleMafor_hourly.m): generate the dilution and initial conc by each hour which will be utilized in the offline coupling with the aerosol dynamics model MAFOR.
 * [getGralConc](/postprocessing/getGralConc.m): (function) read the conc data from the extracted files.
+* [annualMeanConc_revise_aromatics](/postprocessing/annualMeanConc_revise_aromatics.m): calculate the annual mean concentrations of the total particle number concentrations induced by the aviation emissions with or without the coupling with MAFOR.
 
 
 ## Reference
