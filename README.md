@@ -17,7 +17,10 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 * [regressionModelForPN.m](/regressionModelforPNEmission/regressionModelForPN.m):  Regression model for the total particle number emission index based on the data set from APEX, AAFEX I&II, [(Moore et al., 2015)](https://pubs.acs.org/doi/10.1021/ef502618w) and the LAX study [(Moore et al., 2017)](https://www.nature.com/articles/sdata2017198). The data used in the fitting were from these studies.
 
 ## Dispersion model
-(to be continued)
+The detailed introduction and tutorial for GRAL/GRAMM can be available from [GRAL/GRAMM](https://gral.tugraz.at/).
+
+## Post-processing
+After the GRAL/GRAMM calculations, the results should be read and analyzed. In this study, the results of GRAL/GRAMM will be further updated by the aerosol dynamics model MAFOR. 
 
 ## Reference
 1. Xiaole Zhang, Matthias Karl, Luchi Zhang, Jing Wang. Influence of Aviation Emission on the Particle Number Concentration near Zurich Airport. Environmental Science & Technology 2020, 54 (22) , 14161-14171. https://doi.org/10.1021/acs.est.0c02249
