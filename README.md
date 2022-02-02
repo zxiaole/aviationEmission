@@ -20,8 +20,8 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 The detailed introduction and tutorial for GRAL/GRAMM can be available from [GRAL/GRAMM](https://gral.tugraz.at/).
 
 ## Post-processing
-After the GRAL/GRAMM calculations, the results should be read and analyzed. In this study, the results of GRAL/GRAMM will be further updated by the aerosol dynamics model MAFOR. 
-* [readConc](/postprocessing/readConc.m):
+After the GRAL/GRAMM calculations, the results should be read and analyzed. In this study, the results of GRAL/GRAMM will be further updated by the aerosol dynamics model MAFOR. The tools and codes are in the postprocessing folder.
+* [readConc](/postprocessing/readConc.m): the results of GRAL are in the compressed format. This code extracts the compressed conc data, and it only needs to be run once at the beginning for a certain case to extract the compressed data.
 
 ## Reference
 1. Xiaole Zhang, Matthias Karl, Luchi Zhang, Jing Wang. Influence of Aviation Emission on the Particle Number Concentration near Zurich Airport. Environmental Science & Technology 2020, 54 (22) , 14161-14171. https://doi.org/10.1021/acs.est.0c02249
