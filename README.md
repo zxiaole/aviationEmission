@@ -22,7 +22,10 @@ The detailed introduction and tutorial for GRAL/GRAMM can be available from [GRA
 ## Post-processing
 After the GRAL/GRAMM calculations, the results should be read and analyzed. In this study, the results of GRAL/GRAMM will be further updated by the aerosol dynamics model MAFOR. The tools and codes are in the postprocessing folder.
 * [readConc](/postprocessing/readConc.m): the results of GRAL are in the compressed format. This code extracts the compressed conc data, and it only needs to be run once at the beginning for a certain case to extract the compressed data.
-* [setGralConfig](/postprocessing/setGralConfig.m): get the key configurations of the domain used in the Gral calculations. If the domain has been changed, the corresponding setting should be also changed in the code.
+* [setGralConfig](/postprocessing/setGralConfig.m): (function) get the key configurations of the domain used in the Gral calculations. If the domain has been changed, the corresponding setting should be also changed in the code.
+* [coupleMafor_hourly](/postprocessing/coupleMafor_hourly.m): generate the dilution and initial conc by each hour which will be utilized in the offline coupling with the aerosol dynamics model MAFOR.
+* [getGralConc](/postprocessing/getGralConc.m): (function) read the conc data from the extracted files.
+
 
 ## Reference
 1. Xiaole Zhang, Matthias Karl, Luchi Zhang, Jing Wang. Influence of Aviation Emission on the Particle Number Concentration near Zurich Airport. Environmental Science & Technology 2020, 54 (22) , 14161-14171. https://doi.org/10.1021/acs.est.0c02249
