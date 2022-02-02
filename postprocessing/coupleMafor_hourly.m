@@ -54,7 +54,7 @@ meteoCategoryNum = size(meteoCategories, 1);
 %% generate the dilution and initial conc for MAFOR by each hour
 pr = zeros(meteoNum,1);
 concr = zeros(meteoNum,1);
-for meteoID = 1:meteoNum
+parfor meteoID = 1:meteoNum
     disp(meteoID)
     factors = totalPNFactors(meteoID, :);
     if(sum(factors) == 0)
