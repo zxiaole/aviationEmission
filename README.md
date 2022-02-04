@@ -18,6 +18,7 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 
 ## Dispersion model
 The detailed introduction and tutorial for GRAL/GRAMM can be available from [GRAL/GRAMM](https://gral.tugraz.at/).
+* [getData](/meteoData/getData.m): the meteorological data used for this study was from reanalysis database [NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive](https://rda.ucar.edu/datasets/ds084.1/#!access). The code was used to generate the input data [metData](meteoData/metData.txt) and [Precipitation](meteoData/Precipitation.txt) needed by Gral.
 
 ## Post-processing
 After the GRAL/GRAMM calculations, the results should be read and analyzed. In this study, the results of GRAL/GRAMM will be further updated by the aerosol dynamics model MAFOR. The tools and codes are in the postprocessing folder.
