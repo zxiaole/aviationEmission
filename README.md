@@ -22,7 +22,7 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 <img src="/img/segmentation.png">
 
 * Results of emission
-<img src="/img/emisions.jpeg">
+<img src="/img/emissions.jpeg">
 
 ## Dispersion model
 The detailed introduction and tutorial for GRAL/GRAMM can be available from [GRAL/GRAMM](https://gral.tugraz.at/).
