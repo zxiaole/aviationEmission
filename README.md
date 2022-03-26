@@ -18,6 +18,9 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 
 * [regressionModelForPN.m](/regressionModelforPNEmission/regressionModelForPN.m):  Regression model for the total particle number emission index based on the data set from APEX, AAFEX I&II, [(Moore et al., 2015)](https://pubs.acs.org/doi/10.1021/ef502618w) and the LAX study [(Moore et al., 2017)](https://www.nature.com/articles/sdata2017198). The data used in the fitting were from these studies.
 
+* Results of segmentation of flights
+<img src="/img/segmentation.png">
+
 ## Dispersion model
 The detailed introduction and tutorial for GRAL/GRAMM can be available from [GRAL/GRAMM](https://gral.tugraz.at/).
 * [getData](/meteoData/getData.m): the meteorological data used for this study was from reanalysis database [NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive](https://rda.ucar.edu/datasets/ds084.1/#!access). The code was used to generate the input data [metData](meteoData/metData.txt) and [Precipitation](meteoData/Precipitation.txt) needed by Gral.
