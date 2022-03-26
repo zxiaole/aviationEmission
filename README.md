@@ -24,6 +24,9 @@ Then, [GRAL/GRAMM](https://gral.tugraz.at/) model is utilized to calculate the d
 * Results of emission
 <img src="/img/emissions.jpeg">
 
+* Spatial distribution of the surface (2 m above ground) particle number concentration attributable to the aircraft emissions with a resolution of 20 m. The background concentration has been excluded.
+<img src="/img/concentrations.jpeg">
+
 ## Dispersion model
 The detailed introduction and tutorial for GRAL/GRAMM can be available from [GRAL/GRAMM](https://gral.tugraz.at/).
 * [getData](/meteoData/getData.m): the meteorological data used for this study was from reanalysis database [NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive](https://rda.ucar.edu/datasets/ds084.1/#!access). The code was used to generate the input data [metData](meteoData/metData.txt) and [Precipitation](meteoData/Precipitation.txt) needed by Gral.
